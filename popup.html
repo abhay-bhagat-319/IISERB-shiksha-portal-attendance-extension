@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { width: 280px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding: 15px; margin: 0; background: #f4f7f6; }
+    .container { background: white; padding: 15px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+    h2 { font-size: 16px; color: #333; margin: 0 0 10px 0; border-bottom: 2px solid #00bcd4; padding-bottom: 5px; }
+    .stats { font-size: 28px; font-weight: bold; color: #00838f; margin: 10px 0; }
+    .advice { font-size: 13px; padding: 8px; border-radius: 6px; }
+    .safe { background: #e8f5e9; color: #2e7d32; }
+    .danger { background: #ffebee; color: #c62828; }
+    .footer { font-size: 10px; color: #999; margin-top: 15px; text-align: center; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2 id="course">Ready to Sync</h2>
+    <div id="display">
+      <div id="percent" class="stats">--%</div>
+      <div id="raw">Open the attendance pop-up on the portal.</div>
+      <br>
+      <div id="advice-box" class="advice" style="display:none;"></div>
+    </div>
+    <div class="footer">IISERB Student Toolkit v1.0</div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
